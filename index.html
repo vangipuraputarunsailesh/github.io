@@ -455,10 +455,10 @@ nav::-webkit-scrollbar{display:none}
       <button class="btn-ghost" onclick="go('contact')">Get In Touch</button>
     </div>
     <div class="stats-row">
-      <div class="stat"><div class="stat-n">3+</div><div class="stat-l">Years Exp</div></div>
-      <div class="stat"><div class="stat-n">5</div><div class="stat-l">Certifications</div></div>
-      <div class="stat"><div class="stat-n">6+</div><div class="stat-l">Projects</div></div>
-      <div class="stat"><div class="stat-n">2</div><div class="stat-l">AI Agent Projects</div></div>
+      <div class="stat"><div class="stat-n">4+</div><div class="stat-l">Years Exp</div></div>
+      <div class="stat"><div class="stat-n">9</div><div class="stat-l">Certifications</div></div>
+      <div class="stat"><div class="stat-n">8+</div><div class="stat-l">Projects</div></div>
+      <div class="stat"><div class="stat-n">4</div><div class="stat-l">AI Agent Projects</div></div>
     </div>
   </section>
 
@@ -495,7 +495,7 @@ nav::-webkit-scrollbar{display:none}
       <div class="job">
         <div class="job-head">
           <span class="job-title">Data Engineer</span>
-          <span class="job-date">Feb 2025 – Present</span>
+          <span class="job-date">Jan 2024 – Present</span>
         </div>
         <p class="job-co"><b>Unilever</b> · Redmond, WA · Logistics Supply Chain Management</p>
         <ul class="job-bullets">
@@ -543,11 +543,50 @@ nav::-webkit-scrollbar{display:none}
           <div class="feat">MCP Server orchestration bridging AI agents with user data</div>
         </div>
       </div>
-      <div class="proj-card">
-        <span class="testing-badge">In testing</span>
-        <h4>Job Pilot — AI Job Application Assistant</h4>
-        <p>AI assistant for resume-to-JD matching, tailored cover letter generation, and end-to-end application tracking.</p>
-        <div class="ptags"><span class="ptag">LangChain</span><span class="ptag">FastAPI</span><span class="ptag">Claude AI</span></div>
+      <div class="flagship">
+        <div>
+          <div class="rd-badge"><span class="pulse"></span>In Testing</div>
+          <h3>Job Pilot — AI Job Application Assistant</h3>
+          <p>Agentic job-search assistant that semantically matches resumes to job descriptions, generates tailored cover letters, and tracks the full application lifecycle — all powered by a multi-agent LangChain backend.</p>
+          <div class="ptags"><span class="ptag">LangChain</span><span class="ptag">FastAPI</span><span class="ptag">Claude AI</span><span class="ptag">Python</span><span class="ptag">Streamlit</span></div>
+        </div>
+        <div class="feat-list">
+          <div class="feat">Resume-to-JD semantic matching using LLM embeddings and cosine similarity scoring</div>
+          <div class="feat">Context-aware cover letter generation tailored per job description</div>
+          <div class="feat">End-to-end application tracking dashboard with status pipeline</div>
+          <div class="feat">Multi-agent LangChain orchestration — each agent handles a distinct job-search task</div>
+          <div class="feat">Claude AI backbone for reasoning, ranking, and personalization</div>
+        </div>
+      </div>
+      <div class="flagship">
+        <div>
+          <div class="rd-badge"><span class="pulse"></span>In Testing</div>
+          <h3>UI Shop Agent — Multi-Agent Walmart Shopping System</h3>
+          <p>Chat-based shopping automation system where an LLM orchestrator routes user commands to specialized sub-agents (Auth, Cart, Search, Checkout) that control a real Chromium browser via MCP — all through a Rich terminal chat UI.</p>
+          <div class="ptags"><span class="ptag">Python</span><span class="ptag">Playwright</span><span class="ptag">MCP</span><span class="ptag">GPT-4o</span><span class="ptag">Claude AI</span><span class="ptag">JSON-RPC</span><span class="ptag">ReAct</span></div>
+        </div>
+        <div class="feat-list">
+          <div class="feat">4 specialized sub-agents: AuthAgent, CartAgent, SearchAgent, CheckoutAgent</div>
+          <div class="feat">MCP HTTP JSON-RPC server exposing 14 Playwright browser automation tools</div>
+          <div class="feat">ReAct loop per agent — Reason → Act → Observe until task complete</div>
+          <div class="feat">Single shared Chromium context preserves login session across all agents</div>
+          <div class="feat">12-step automated workflow: login → clear cart → search → add → checkout</div>
+        </div>
+      </div>
+      <div class="flagship">
+        <div>
+          <div class="rd-badge"><span class="pulse"></span>In Testing</div>
+          <h3>NLShopEngine — Natural Language Shopping Engine</h3>
+          <p>Conversational product discovery engine that translates free-form natural language queries into structured search and recommendation pipelines, surfacing the most relevant products from large e-commerce catalogs in real time.</p>
+          <div class="ptags"><span class="ptag">Python</span><span class="ptag">NLP</span><span class="ptag">Semantic Search</span><span class="ptag">LLM</span><span class="ptag">FastAPI</span><span class="ptag">Vector DB</span></div>
+        </div>
+        <div class="feat-list">
+          <div class="feat">Natural language query → structured product search pipeline via LLM intent parsing</div>
+          <div class="feat">Semantic search with vector embeddings for context-aware product ranking</div>
+          <div class="feat">Real-time catalog filtering with faceted attribute extraction</div>
+          <div class="feat">LLM-powered query reformulation and disambiguation for better recall</div>
+          <div class="feat">FastAPI async backend integrated with vector DB for low-latency retrieval</div>
+        </div>
       </div>
       <div class="proj-card">
         <h4>McDonalds Chatbot — FastAPI Support</h4>
@@ -628,6 +667,10 @@ nav::-webkit-scrollbar{display:none}
       <a class="cert-card" href="https://learn.microsoft.com/api/credentials/share/en-us/VangipurapuTarunSailesh-1298/70925A8E3C7B1D16?sharingId" target="_blank"><div class="cert-icon">📊</div><div><h4>Fabric Data Engineer Associate (DP-700)</h4><p>Microsoft · Verify →</p></div></a>
       <a class="cert-card" href="https://www.credly.com/badges/382fb55d-925a-4a22-bcfd-b842c8c396c6/linked_in_profile" target="_blank"><div class="cert-icon">🔄</div><div><h4>Apache Airflow 3 Fundamentals</h4><p>Credly · Verify →</p></div></a>
       <a class="cert-card" href="https://www.hackerrank.com/certificates/80ebcc2046b8" target="_blank"><div class="cert-icon">💻</div><div><h4>Software Engineer</h4><p>HackerRank · Verify →</p></div></a>
+      <div class="cert-card"><div class="cert-icon">📈</div><div><h4>Microsoft Fabric Analytics Engineer (DP-600)</h4><p>Microsoft</p></div></div>
+      <div class="cert-card"><div class="cert-icon">🗄️</div><div><h4>DP-800 — Developing AI-Enabled Database Solutions</h4><p>Microsoft</p></div></div>
+      <div class="cert-card"><div class="cert-icon">🐍</div><div><h4>Python Developer</h4><p>HackerRank</p></div></div>
+      <div class="cert-card"><div class="cert-icon">🧮</div><div><h4>Advanced SQL</h4><p>HackerRank</p></div></div>
     </div>
   </section>
 
@@ -793,7 +836,7 @@ function submitQ() {
   ans.style.display = 'block'; ans.textContent = 'Thinking...';
   const key = Object.keys(qAnswers).find(k => q.includes(k));
   setTimeout(() => {
-    ans.textContent = key ? qAnswers[key] : "Great question! Tarunsailesh brings 3+ years of production data engineering on Azure (Databricks, ADF, Synapse, ADLS Gen2, Event Hubs) plus active AI/ML projects using LangChain and Azure OpenAI. Open to any role — data, AI, or software engineering. Contact: vtarunsailesh@gmail.com | +1 682-392-2299.";
+    ans.textContent = key ? qAnswers[key] : "Great question! Tarunsailesh brings 4+ years of production data engineering on Azure (Databricks, ADF, Synapse, ADLS Gen2, Event Hubs) plus active AI/ML projects using LangChain and Azure OpenAI. Open to any role — data, AI, or software engineering. Contact: vtarunsailesh@gmail.com | +1 682-392-2299.";
   }, 600);
 }
 </script>
